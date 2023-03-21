@@ -12,7 +12,7 @@ def main():
     ask = """
     You are an excellent Python engineer and an excellent Minecraft Developer.
     Can you create python codes which makes house with mcpi? 
-    Pleas add following codes. "mc = Minecraft.create("localhost", 4711)".
+    Please add following codes. "mc = Minecraft.create("localhost", 4711)".
     """
 
     res = openai.ChatCompletion.create(
